@@ -1,0 +1,632 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+body { 
+	background-color: #ECE5FB; 
+	background-image: linear-gradient(to bottom, #FFFFFF, #ECE3FB);
+	background-repeat: no-repeat;
+	color: #666666; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 { 
+	height: 300px;
+	background-image: url(heart.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 10px;
+	text-align: left;
+	font-family: Georgia, Times New Roman, sans-serif;
+}
+
+#heart {
+	float: left;
+	margin: 0 25px 5px 5px;
+	border: 1px solid #000000;
+}
+
+#attack {
+	float: right;
+	margin: 0 25px 5px 5px;
+	border: 1px solid #000000;
+}
+
+#arduino {
+	position: center;
+	margin: 0 25px 5px 5px;
+	border: none;
+}
+
+#ecg {
+	position: center;
+	margin: 0 25px 5px 5px;
+	border: none;
+}
+
+#board {
+	position: center;
+	margin: 0 25px 5px 5px;
+	border: none;	
+}
+
+#cable {
+	position: center;
+	margin: 0 25px 5px 5px;
+	border: none;	
+}
+
+#pads {
+	position: center;
+	margin: 0 25px 5px 5px;
+	border: none;
+}
+
+#body {
+	float: right;
+	height: 230px;
+	width: 230px;
+	margin: 0 25px 5px 5px;
+	border: 1px solid #000000;
+}
+
+#wrapper {
+	width: 80%;
+	background-color: white;
+	min-width: 960px;
+	max-width: 2048px;
+	margin: auto;
+	box-shadow: 1px 1px 1px #FFF8D3;
+}
+
+nav { 
+	padding: 5px;
+	background-color: #FFFFFF;
+	border: 2px solid #ECFCE6;
+}
+
+nav a {
+	display: inline-block;
+	background-color: #E3FCE6;
+	color: black;
+	padding: 13px;
+	font-size: 100%;
+	border: none;
+}
+
+.whybtn {
+	background-color: #E3FCE6;
+	color: black;
+	padding: 13px;
+	font-size: 100%;
+	border: none;
+}
+
+.why {
+	position: relative;
+	display: inline-block;
+}
+
+.why-content {
+	display: none;
+	position: absolute;
+	background-color: #E3FCE6;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0, 0, 0.2);
+	z-index: 1;
+}
+
+.why-content a{
+	color: black;
+	font-size: 16px;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.why-content a:hover {
+	color: #89E294;
+}
+
+.why:hover .why-content {
+	display: block;
+}
+
+.howbtn {
+	background-color: #E3FCE6;
+	color: black;
+	padding: 13px;
+	font-size: 100%;
+	border: none;
+}
+
+.how {
+	position: relative;
+	display: inline-block;
+}
+
+.how-content {
+	display: none;
+	position: absolute;
+	background-color: #E3FCE6;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0, 0, 0.2);
+	z-index: 1;
+}
+
+.how-content a{
+	color: black;
+	font-size: 16px;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.how-content a:hover {
+	color: #89E294;
+}
+
+.how:hover .how-content {
+	display: block;
+}
+
+.whatbtn {
+	background-color: #E3FCE6;
+	color: black;
+	padding: 13px;
+	font-size: 100%;
+	border: none;
+}
+
+.what {
+	position: relative;
+	display: inline-block;
+}
+
+.what-content {
+	display: none;
+	position: absolute;
+	background-color: #E3FCE6;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0, 0, 0.2);
+	z-index: 1;
+}
+
+.what-content a{
+	color: black;
+	font-size: 16px;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.what-content a:hover {
+	color: #89E294;
+}
+
+.what:hover .what-content {
+	display: block;
+}
+
+.procedurebtn {
+	background-color: #E3FCE6;
+	color: black;
+	padding: 13px;
+	font-size: 100%;
+	border: none;
+}
+
+.procedure {
+	position: relative;
+	display: inline-block;
+}
+
+.procedure-content {
+	display: none;
+	position: absolute;
+	background-color: #E3FCE6;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0, 0, 0.2);
+	z-index: 1;
+}
+
+.procedure-content a{
+	color: black;
+	font-size: 16px;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.procedure-content a:hover {
+	color: #89E294;
+}
+
+.procedure:hover .procedure-content {
+	display: block;
+}
+
+#report {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: black;
+}
+
+nav a:visited {
+	color: #A18BD7;
+}
+
+nav a:hover {
+	color: #89E294;
+}
+
+main {
+	background-color: white;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+h2 { 
+	color: #A70800; 
+	font-family: Georgia, Times New Roman, sans-serif;
+	text-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+	font-family: Georgia, Times New Roman, sans-serif;
+}
+
+#risks {
+	background-color: white;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+}
+
+/*main ul {
+	list-style-image: url(marker.gif);
+}*/
+
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, Times New Roman, sans-serif;
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+
+table {
+	border: 1px solid #3399CC;
+	width: 80%;
+	border-spacing: 0;
+}
+
+td, th {
+	padding: 5px;
+	border: 1px solid #3399CC;
+}
+
+td {
+	text-align: center;
+}
+
+#text {
+	text-align: left;
+}
+
+th:nth-of-type(odd) {
+	background-color: #F5FAFC;
+}
+
+dt { 
+	color: #000033; 
+}
+
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 120px;
+	padding: 10px;
+}
+
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+
+#mobile {
+	display: none;
+}
+
+#desktop {
+	display: inline;
+}
+
+.resort { 
+	color: #5C7FA3; 
+	font-weight: bold;
+}
+
+.contact {
+	font-size: 90%;
+}
+
+#moh {
+	float: left;
+	padding-left: 30px;
+	margin: 0 25px 5px 5px;
+	border: 0;
+}
+
+#yurthero {
+	height: 300px;
+	background-image: url(yurthero.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#trailhero {
+	height: 300px;
+	background-image: url(trailhero.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+@media only screen and (max-width: 64em) {
+	body {
+		margin: 0;
+		background-color: #FFFFFF;
+	}
+
+	#wrapper {
+		min-width: 0;
+		width: auto;
+		box-shadow: none;
+	}
+
+	main {
+		margin-left: 0;
+	}
+
+	nav {
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 0.5em;
+	}
+
+	nav a {
+		display: inline;
+		padding-top: 0.25em;
+		padding-bottom: 0.25em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
+	}
+
+	#homehero {
+		margin-left: 0;
+		height: 200px;
+	}
+
+	#yurthero {
+		margin-left: 0;
+		height: 200px;
+	}
+
+	#trailhero {
+		margin-left: 0;
+		height: 200px;
+	}
+
+	footer {
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 37.5em) {
+	header {
+		padding-top: 1em;
+	}
+
+	main {
+		padding-top: 0.1em;
+		padding-bottom: 0.1em;
+		padding-right: 1em;
+		padding-left: 1em;
+		font-size: 90%;
+	}
+
+	h1 {
+		font-size: 1.5em;
+	}
+
+	nav {
+		padding: 0;
+		display: block;
+		margin: 0;
+		border-bottom: 2px solid #330000;
+		background-color: #E3FCE6;
+	}
+
+	nav a{
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+
+	.whybtn {
+		display: inline-block;
+		padding: 0;
+		margin: 0;
+	}
+
+	.why {
+		display: block;
+		margin: 0;
+	}
+
+	.why-content {
+		display: none;
+		margin: 0;
+	}
+
+	.why-content a {
+		display: block;
+		margin: 0;
+	}
+
+	.why-content a:hover {
+		display: block;
+		margin: 0;
+	}
+
+	.why:hover .why-content {
+		display: inline;
+		margin: 0;
+	}
+
+	.howbtn {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.how {
+		display: block;
+		margin: 0;
+	}
+
+	.how-content {
+		display: none;
+		margin: 0;
+	}
+
+	.how-content a {
+		display: block;
+		margin: 0;
+	}
+
+	.how-content a:hover {
+		display: block;
+		margin: 0;
+	}
+
+	.how:hover .how-content {
+		display: inline;
+		margin: 0;
+	}
+
+	.whatbtn {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.what {
+		display: block;
+		margin: 0;
+	}
+
+	.what-content {
+		display: none;
+		margin: 0;
+	}
+
+	.what-content a {
+		display: block;
+		margin: 0;
+	}
+
+	.what-content a:hover {
+		display: block;
+		margin: 0;
+	}
+
+	.what:hover .what-content {
+		display: inline;
+		margin: 0;
+	}
+
+	.procedurebtn {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+	}
+
+	.procedure {
+		display: block;
+		margin: 0;
+	}
+
+	.procedure-content {
+		display: none;
+		margin: 0;
+	}
+
+	.procedure-content a {
+		display: block;
+		margin: 0;
+	}
+
+	.procedure-content a:hover {
+		display: block;
+		margin: 0;
+	}
+
+	.procedure:hover .procedure-content {
+		display: inline;
+		margin: 0;
+	}
+
+	label {
+		float: none;
+		text-align: left;
+	}
+
+	input[type = "submit"] {
+		margin-left: 0;
+	}
+
+	#homehero {
+		background-image: none;
+		height: 0;
+	}
+
+	#yurthero {
+		background-image: none;
+		height: 0;
+	}
+
+	#trailhero {
+		background-image: none;
+		height: 0;
+	}
+
+	#mobile {
+		display: inline;
+	}
+
+	#desktop {
+		display: none;
+	}
+}
