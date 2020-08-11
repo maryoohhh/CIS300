@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<div id = "wrapper">
+	<head>
+		<title>Pacific Trails Resort :: Reservations</title>
+		<meta charset = "utf-8">
+		<meta name = "description" content = "Pacific Trails Resort, a resort that offers lodging with panoramic views of Pacific Ocean off of the California North Coast.">
+		<!--[if lt IE9]
+			<script src = "http://html5shim.googlecode.com/svn/trunk/html5.js">
+			</script>
+		<![enfif]-->
+	</head>
+
+	<header>
+		<link rel = "stylesheet" href = "pacific.css">
+		<h1>Pacific Trails Resort</h1>
+	</header>
+		
+	<nav>
+		<ul>
+			<li><a href = "index.html">Home</a></li>
+			<li><a href = "yurts.html">Yurts</a></li>
+			<li><a href = "activities.html">Activities</a></li>
+			<li><a href = "reservations.html">Reservations</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<h2>Reservations at Pacific Trails Resort</h2>
+
+		<h3>Contact Us Today!</h3>
+
+		<p>Required fields are marked with an asterisk *.</p>
+
+		<form method = "post" action = "http://webdevbasics.net/scripts/pacific.php">
+			<label for = "myFName">*First Name:</label>
+			<input type = "text" name = "myFName" id = "myFName" required = "required">
+				
+			<label for = "myLName">*Last Name:</label>
+			<input type = "text" name = "myLName" id = "myLName" required = "required">
+				
+			<label for = "myEmail">*E-mail Address:</label>
+			<input type = "email" name = "myEmail" id = "myEmail" size = "35" required = "required">
+
+			<label for = "myPhone">Phone Number:</label>
+			<input type = "tel" name = "myPhone" id = "myPhone" maxlength = "10">
+
+			<label>Arrival Date:</label>
+			<input type = "date">
+
+			<label>Nights:</label>
+			<input type = "number" min = "1" max = "14">
+
+			<label for = "myComments">*Comments:</label>
+			<textarea name = "myComments" rows = "2" cols = "30"></textarea>
+
+			<input type = "Submit" value = "Submit">
+		</form>
+
+		<div id = "contact">
+			<span class = "resort">Pacific Trails Resort</span><br>
+			12010 Pacific Trails Road<br>
+			Zephyr, CA 95555<br><br>
+			<a id = "mobile" href = "tel:888-555-5555">888-555-5555</a>
+			<span id = "desktop">888-555-5555</span>
+		</div>
+
+	</main>
+
+	<footer>
+			<br>Copyright &copy; 2016 Pacific Trails Resort<br>
+			<a href = "mailto:mary@oh.com">mary@oh.com</a>
+	</footer>
+</div>
